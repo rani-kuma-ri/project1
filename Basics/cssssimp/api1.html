@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const URL="https://www.themealdb.com/api/json/v1/1/search.php?s=${query}";
+     
+   async function a(query){
+     const data= await fetch(URL);//fetch data
+    const data1= await data.json();
+
+     console.log(data1);
+    }
+</script>
+</html>

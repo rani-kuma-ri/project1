@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <h1>login form</h1>
+    <form id="a">
+        <input type="text" id="email"><br>
+        <input type="password" id="password">
+        <button type="submit">login</button>
+    </form>
+    <p id="msg" class="error"></p>
+</body>
+<script>
+   const z=document.getElementById("a");
+   z.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    var email=document.getElementById("email").value;
+     var password=document.getElementById("password").value;
+      var msg=document.getElementById("msg");
+     if(!email.includes("@gmail.com")){
+        msg.textContent="invalid email address";
+     }
+     else if(password.length<10){
+         msg.textContent="invalid email length ";
+     }
+     else{
+         msg.textContent="login successfully ";
+     }
+   });
+</script>
+</html>

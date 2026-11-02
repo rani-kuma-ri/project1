@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    
+    <title>Document</title>
+
+function change(x){
+    x = 20;
+}
+
+let a = 10;
+change(a);
+
+console.log(a);
+
+
+
+
+function change(obj){
+    obj.value = 20;
+}
+
+let data = { value: 10 };
+change(data);
+
+console.log(data.value);
+
+<html>  
+<body>  
+<script>  
+function sum(a=5, b=7)  
+{  
+    return a+b;  
+}  
+console.log(" Sum of the numbers is : " + sum());   // there is no argument  
+console.log(" Sum of the number is : " + sum(3));   // it has one argument  
+console.log(" Sum is : " + sum(7,3));   // have both argument  
+</script>  
+</body>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function changeValue(num) {  
+  console.log("Inside function, before change:", num); // Output: 10  
+  num = 20;  
+  console.log("Inside function, after change:", num);  // Output: 20  
+}  
+let myNumber = 10;  
+console.log("Before function call:", myNumber); // Output: 10  
+changeValue(myNumber);  
+console.log("After function call:", myNumber);  // Output: 10  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+console.log(a);
+Inside function, before change: 10
+Inside function, after change: 20
+After function call: 10
+
+
+function updatePerson(person) {  
+    person.age += 1; // Modifies the original object  
+    console.log("Inside function:", person);  
+}  
+let personObj = { name: "Alice", age: 25 };  
+console.log("Before function call:", personObj);  
+updatePerson(personObj);  
+console.log("After function call:", personObj)
+
+
+
+Before function call: { name: 'Alice', age: 25 }
+Inside function: { name: 'Alice', age: 26 }
+After function call: { name: 'Alice', age: 26 }

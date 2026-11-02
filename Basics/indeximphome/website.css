@@ -1,0 +1,183 @@
+ /* Background */
+        body {
+            background: linear-gradient(135deg, #dadf47, #1cc88a);
+        }
+ 
+
+
+.pageee{
+     width:90%;
+    max-width:1200px;
+    margin:30px auto;
+    background:linear-gradient(135deg,#e7e5ed,#e5ffe0);
+    padding:30px 10px;
+}
+
+
+.a p{
+    text-align: left;
+}
+.b h1,p{
+    text-align: right;
+    
+
+
+}
+.pages p1{
+    background:aqua;
+    width:50%;
+
+}
+button{
+     width: 20%;
+            padding: 10px;
+            background: #590cde;
+            border:rgb(72, 178, 22);
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+             text-align: right;
+            align-items:right;
+            
+
+           
+}
+
+
+.pag h2{
+    background: #1cc88a;
+    width:50%;
+    align-items: center;
+    text-align: center;
+
+}
+.pages{
+    text-align:center ;
+}
+
+.pages p{
+    text-align: center;
+}
+.nav-menu{
+    text-align: center;
+    background-color:aqua;
+   
+}
+.nav a{
+    text-decoration: aliceblue;
+}
+.pag{
+    text-align: center;
+}
+.pag nav a1{
+    background-color:rgb(255, 235, 205);
+
+}
+.pag nav a2{
+    background-color: rgb(203, 172, 33);
+}
+.pag nav a3{
+   background-color: rgb(128, 142, 25);
+}
+.pag nav a4{
+       background-color: rgb(203, 172, 33);
+
+}
+.page h2{
+    background-color: rgb(149, 44, 175);
+}
+.page h2{
+    text-align: center;
+
+}
+.page p{
+    text-align: left;
+}
+.pagge{
+    text-align: center;
+}
+.page{
+    text-align: center;
+}
+.page nav a1{
+    background-color:rgb(255, 235, 205);
+
+}
+.page nav a2{
+    background-color: rgb(203, 172, 33);
+}
+.pag nav a3{
+   background-color: rgb(128, 142, 25);
+}
+.page nav a4{
+       background-color: rgb(203, 172, 33);
+
+}
+.page nav a5{
+       background-color: rgb(203, 172, 33);
+
+}
+.shopify h2{
+    text-align: center;
+    background-color: rgb(70, 158, 70);
+    padding:30px 10px;;
+    
+}
+.shopify p{
+    text-align: center;
+
+}
+
+    
+.div h2{
+     text-align: center;
+    background-color: rgb(70, 158, 70);
+    padding:30px 10px;;
+
+}
+.xy p{
+    text-align: center;
+    align-items: center;
+    color: #abd512;
+}
+.diiv h1{
+    text-align: center;
+    align-items: center;
+}
+.diiv p1{
+    background-color: #590cde;
+    text-align: left;
+    align-items: center;
+
+}
+.diiv p2{
+    background-color: #c5b6e0;
+    text-align: right;
+    align-items: right;
+
+}
+.diiv p3{
+    background-color: #d2c8e2;
+    text-align: left;
+    align-items: left;
+
+}
+.shopify entry h1{
+     background-color: #1cc88a;
+}
+.shopify entry practice h1{
+    text-align: center;
+    align-items: center;
+
+    background-color: #1cc88a;
+    padding: 40px;
+      width: auto;
+      border-radius:10px;
+       box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+     
+
+}
+shopify entry p2{
+     background-color: #1cc88a;

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+      background:rgb(19, 106, 228);
+
+}
+.img-box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) ;
+    width: 1300px;
+    height: 1300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.img-box .img-list{
+    height: inherit;
+
+
+}
+.img-list .img-slider{
+    height: inherit;
+
+}
+.img-slider .img-item{
+    position: absolute;
+    left:0;
+    top:50;
+      transform: rotate(-360deg/6* var (--i));
+    transform: translateY(-50%) ; 
+
+}
+.img-item .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-item .item img{
+    transform: rotate(-360deg/6* var (--i));
+}

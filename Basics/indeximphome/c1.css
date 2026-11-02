@@ -1,0 +1,29 @@
+.page{
+     width:90%;
+    max-width:1200px;
+    margin:30px auto;
+    background:linear-gradient(135deg,#7a4fff,#e5ffe0);
+    padding:30px 10px;
+
+}
+.pages h1{
+    text-align: center;
+     padding:30px 10px;
+
+
+}
+.clothing{
+     
+     text-align: center;
+}
+
+nav a{
+     background:linear-gradient(135deg,#61ff4f,#e5ffe0); 
+  
+      text-align: center;
+      box-shadow: 3px 3px 8px grey;
+}
+.clothings hero{
+    background-color: antiquewhite;
+
+}

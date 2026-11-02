@@ -1,0 +1,39 @@
+.page {
+    width:90%;
+    max-width:1200px;
+    background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+
+}
+/*web*/
+.site-header{
+    text-align: center;
+    padding: 30px  10px;
+    box-shadow:3px 3px 8px gray;
+}
+.site-header h1,p{
+    color:#e0e0ff;
+}
+/* menus*/
+.nav-menu{
+    text-align: center;
+    box-shadow:3px 3px 8px gray;
+      background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+}
+.info-section{
+    display:flex;
+    align-items:flex-start;
+    margin:20px;
+}
+
+/**/
+.info-section{
+    flex:2;
+    
+}
+.text h1{
+    color: #7a4fff;
+}
+
+footer{
+    color: #7a4fff;
+}

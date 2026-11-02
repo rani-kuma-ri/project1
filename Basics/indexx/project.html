@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Palace Hotel</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            line-height:1.6;
+            background-color: aqua;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+        nav{
+            background:#444;
+            text-align:center;
+            padding:10px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:gold;
+        }
+
+        .hero{
+            background:url("https://images.unsplash.com/photo-1501117716987-c8e1ecb210a8") no-repeat center/cover;
+            height:400px;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+             font-size:40px;
+            font-weight:bold;
+        }
+
+        section{
+            padding:40px;
+            text-align:center;
+        }
+
+        .rooms, .services, .gallery{
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:#f4f4f4;
+            width:300px;
+            margin:15px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+         .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        button{
+            background:gold;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+            margin-top:10px;
+        }
+
+        button:hover{
+            background:orange;
+        }
+    </style>
+    </head>
+<body>
+
+<header>
+    <h1>Royal Palace Hotel</h1>
+    <p>Luxury & Comfort Stay</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    Welcome to Royal Palace
+</div>
+
+<section id="about">
+    <h2>About Our Hotel</h2>
+     <p>Royal Palace Hotel offers luxury rooms, fine dining, swimming pool, spa services and 24/7 customer support. 
+       Experience comfort and elegance in the heart of the city.</p>
+</section>
+
+<section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="rooms">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2">
+            <h3>Deluxe Room</h3>
+            <p>AC Room, Free WiFi, King Size Bed</p>
+            <p><strong>₹3000 / Night</strong></p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582719478181-2c9e74c6b3a2">
+               <h3>Suite Room</h3>
+            <p>Premium Suite, Living Area</p>
+            <p><strong>₹8000 / Night</strong></p>
+            <button>Book Now</button>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>🍽 Restaurant</h3>
+            <p>Multi-cuisine restaurant with top chefs.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏊 Swimming Pool</h3>
+            <p>Clean and large pool area for relaxation.</p>
+             </div>
+
+        <div class="card">
+            <h3>💆 Spa</h3>
+            <p>Professional spa & wellness treatments.</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <h2>Gallery</h2>
+    <div class="rooms">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb">
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa">
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461">
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Main City Road, India</p>
+    <p>📞 Phone: +91 9876543210</p>
+    <p>📧 Email: info@royalpalacehotel.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Royal Palace Hotel | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

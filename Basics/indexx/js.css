@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.y{
+    display: flex;
+    margin-left:10px ;
+}
+.y button{
+    margin-left:20px;
+    background-color: blue;
+    color:white;
+     border-radius:20px ;
+    
+}

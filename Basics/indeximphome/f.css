@@ -1,0 +1,37 @@
+.menu { 
+    display: flex; 
+    gap: 20px; 
+  
+}
+
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 15px; 
+    background: rgb(61, 130, 190); 
+    color: white; 
+    align-items: center;
+     
+} 
+.x{
+     
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+
+}
+.cards { 
+    display: flex; 
+    gap: 20px; 
+    padding: 20px; 
+    color:rgb(8, 19, 222)
+    flex-wrap: wrap; 
+} 
+ 
+.card { 
+    border: 1px solid #c61196; 
+    padding: 20px; 
+    width: 200px;
+    
+}

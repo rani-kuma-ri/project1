@@ -1,0 +1,22 @@
+
+.a{
+     width:90%;
+    max-width:1200px;
+    margin:30px auto;
+     padding:500px 1000px;
+     background:linear-gradient(135deg,#e5ff4f,#61e247);
+    
+
+}
+
+#b{
+     background-color:aqua;
+     height:600px ;
+     width:600px ;
+     align-items: center;
+     justify-content: center;
+     border: solid black;
+     display: grid;
+     grid-template-rows: repeat(18 ,1fr);
+     grid-template-columns:repeat(18,1fr);
+}

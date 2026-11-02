@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Login Page</title>  
+ <script>
+  var a=30;  
+if(a==10){  
+document.write("a is equal to 10");  
+}  
+else if(a==15){  
+document.write("a is equal to 15");  
+}  
+else if(a==20){  
+document.write("a is equal to 20");  
+}  
+else{  
+document.write("a is not equal to 10, 15 or 20");  
+}  
+</script>  
+   
+ <style>
+    body {
+ background: #f0f0f0;
+ font-family: Arial;
+}
+.login-box {
+ width: 300px;
+ margin: 100px auto;
+ padding: 20px;
+ background: white;
+ border-radius: 5px;
+ text-align: center;
+ }
+input {
+ width: 100%;
+ padding: 10px;
+ margin: 10px 0;
+}
+button {
+ padding: 10px;
+ width: 100%;
+ background: black;
+ color: white;
+ border: none;
+}
+
+ </style>
+
+</head>
+<body>
+  
+<div class="login-box">
+ <h2 id="dcc">Login</h2>
+ <input type="text" id="username" placeholder="Username">
+ <input type="password" id="pssword" placeholder="Password">
+ <button onclick="login()">Login</button>
+  <button onclick="log()">Log</button>
+
+</div>
+
+<script>
+function login() {
+ alert("Login button clicked");
+}
+function log() {
+ 
+  document.getElementById("dcc").style.color = "yellow";
+}
+</script>
+
+</body>
+</html>
+    

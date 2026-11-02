@@ -1,0 +1,47 @@
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <script>
+        function x(a,b){
+            document.write(this.name,b,a);
+
+        }
+        const y= {name:"dishaa"};
+        x.apply(y,["disha", "fun"]);
+
+    </script>
+</head>
+<body>
+--> 
+ <!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <script>
+        function x(){
+            document.write(this.name);
+
+        }
+        const y= {name:"dishaa"};
+        const xbasics=x.bind(y);
+       basics();
+
+    </script>
+</head>
+<body>
+
+    function greet() {  
+  console.log("Hello, " + this.name);  
+}  
+const person = { name: "Taylor" };  
+greet.call(person);  
+
+
+function sum(a, b) {  
+  return a + b;  
+}  
+console.log(sum.toString());  

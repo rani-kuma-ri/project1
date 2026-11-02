@@ -1,0 +1,88 @@
+  /* Reset */
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Background */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+        }
+
+        /* Login Card */
+        .login-box {
+            background:white;
+            padding: 40px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .login-box h2 {
+            margin-bottom: 25px;
+            color: #8e9791;
+        }
+
+        /* Input fields */
+        .input-box {
+            margin-bottom: 18px;
+            text-align: left;
+        }
+
+        .input-box label {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: 0.3s;
+        }
+
+       .input-box input:focus {
+            border-color: #4e73df;
+        }
+        /* Button */
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #4e73df;
+            border:rgb(72, 178, 22);
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #2e59d9;
+        }
+
+        /* Extra links */
+        .links {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #4e73df;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+   
+        

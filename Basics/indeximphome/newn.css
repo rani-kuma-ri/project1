@@ -1,0 +1,129 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial; 
+} 
+body { 
+    margin: 0; 
+    font-family: Arial; 
+      
+            background:white;
+      
+ 
+
+
+} 
+.disha p{
+    text-align: right;
+    align-items: right;
+}
+.disha button{
+    text-align: left;
+    align-items: left;
+    background: #0d0a12;
+      color: white;
+        cursor: pointer;
+         transition: 0.3s;
+}
+.new nav{
+    background: rgb(229, 222, 222);
+    text-align: center;
+    align-items: center;
+    padding:30px 10px;
+    
+}
+.new p{
+      background: rgb(229, 222, 222);
+    text-align: right;
+    align-items: right;
+}
+.a newcc p1{
+    text-align: center;
+    align-items: center;
+}
+.c p1{
+   
+    
+     text-align: right center;
+    align-items:right center ;
+    padding:30px 10px;
+}
+
+ .x p{   
+     text-align: center;
+    align-items: center;
+    padding:30px 10px;
+    
+}
+.a c p1{
+    text-align: center;
+    align-items: center;
+
+}
+.neew p1{
+    text-align: center right;
+    align-items: center right;
+}
+.x p{
+    background-color: rgb(214, 205, 205);
+     text-align: center;
+    align-items: center;
+    padding:30px 10px;
+    
+}
+.x p1{
+       text-align: center;
+    align-items: center;
+    padding:30px 10px;
+    
+
+}
+.ne nav{
+
+    color:white;
+}
+.ne nav{
+    background-color:rgb(236, 236, 250) ;
+     text-align: center;
+    align-items: center;
+    padding:30px 10px;
+    
+}
+.n p{
+    background-color: rgb(190, 179, 179);
+}
+.n p1{
+    text-align: right;
+    align-items:right;
+}
+.xx p{
+    background-color: rgb(190, 179, 179);
+}
+
+.xx form{
+    background-color: rgb(190, 179, 179);
+}
+.xx button{
+    background: rgb(61, 67, 245);
+    color:rgb(219, 223, 225);
+    padding:10px 10px;
+    width:10%;
+     font-size: 16px;
+      border-radius: 5px;
+     cursor: pointer;
+      transition: 0.3s;
+      text-align: right;
+    align-items: right;
+    
+}
+.xx p{
+    text-align: right;
+    align-items: right;
+}
+ .xx form,input{
+     text-align: right;
+    align-items: right;
+
+ }
+    

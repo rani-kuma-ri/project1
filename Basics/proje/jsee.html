@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Login Page</title>  
+    <script>
+    const expression = 'apples';    
+switch (expression){    
+    case 'oranges':    
+        document.write('I prefer orange.');    
+        break;
+    case 'watermelons':    
+        document.write('I prefer watermelon too!');    
+        break;   
+    case 'apples':    
+        document.write('An apple a day keeps the doctor away.');    
+         break;
+   default:    
+      document.write(`Sorry, we are out off`);  
+       
+} 
+</script> 
+<style>
+#title {
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1 id="title">Hello Rani</h1>
+<button onclick="changeStyle()">Click Me</button>
+
+<script>
+function changeStyle() {
+    document.getElementById("title").style.color = "yellow";
+    document.getElementById("title").style.fontSize = "40px";
+}
+</script>
+
+</body>
+</html>

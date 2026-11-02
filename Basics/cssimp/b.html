@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <button id ='b' onclick="showmessage()">show a</button>
+    <p id ='c'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus autem facere vitae mollitia praesentium, 
+        quod dolorem? Quos commodi obcaecati rem.
+         Rerum ipsam quisquam consequuntur quasi? Eius commodi pariatur laudantium expedita.</p>
+</body>
+<script>
+    function showmessage(){
+   const b=document.getElementById('b');
+   const c=document.getElementById('c');
+   if(c.style.display === "none"){
+      c.style.display ="block";
+      b.textContent="hide";
+
+   }else{
+    c.style.display = "none";
+     b.textContent="show";
+   }
+
+    }
+</script>
+</html>

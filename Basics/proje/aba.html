@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <script>
+   const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+};
+delete person.age;
+
+
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+let result = ("firstName" in person);
+
+
+myObj = {
+  name:"John",
+  age:30,
+  myCars: {
+    car1:"Ford",
+    car2:"BMW",
+    car3:"Fiat"
+  }
+}
+myObj.myCars.car2;
+myObj.myCars["car2"];
+
+
+let p1 = "myCars";
+let p2 = "car2";
+myObj[p1][p2];
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

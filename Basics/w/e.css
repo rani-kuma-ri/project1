@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:rgb(105, 105, 228) ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    color: blanchedalmond;
+}
+.b a{
+    position: relative;
+    color: blanchedalmond;
+    font-weight: 600;
+    margin-left: 40px;
+
+}
+.b.bn{
+    width: 130px;
+    height: 50px;
+    border-radius:6px ;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+.b.bn:hover{
+ background:white ;   
+} 

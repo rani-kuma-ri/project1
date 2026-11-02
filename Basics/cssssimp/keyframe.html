@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"  />
+
+<style>
+    .container{
+        display: flex;
+        gap:300px;
+        margin-left: 10px;
+
+    }
+    .navbtn{
+        background-color: #fff;
+        outline: none;
+        border: none;
+        font-size: larger;
+    }
+
+    .a1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .a1.active{
+        top:-175px;
+        position: fixed;
+        animation: animate 1s forwards;
+    }
+    @keyframes animate{
+        0%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(175px);
+        }
+    }
+
+    .navbar{
+        position: absolute;
+       top: 100%;
+      
+       overflow: hidden;
+       visibility: hidden;
+        background-color:white;
+     width:100%;
+     box-shadow:  2px  10px 9px rgba(188, 178, 151, 0.5)
+    
+       
+    }
+    .navbar.active{
+        visibility: visible;
+         transition-duration: 0.35s;
+    }
+    .navbaritems{
+        list-style: none;
+    }
+     .ber{
+        visibility: hidden;
+    }
+   
+    
+    
+  .navbaritems:not(:last-child){
+    border-block-end: 2px solid olive;
+    width: 100%;
+  }
+</style>
+
+
+    </head>
+<body>
+    <main class="a1 active" data-a1>
+        <div class="container">
+            <h1><a href="" class="logo">shop</a></h1>
+
+            <nav class="navbar  active container" datanavbar>
+
+                <ul class="navbarlist">
+
+                <li class="navbaritems">
+                  <a href="#home" class="navbarlink" datanavlinks>Home</a><!--active-->
+                </li>
+
+                <li class="navbaritems">
+                <a href="#services" class="navbarlink" datanavlinks>Services</a><!--active-->
+                </li>
+
+                <li class="navbaritems">
+                 <a href="#features" class="navbarlink" datanavlinks>Features</a><!--active-->
+                </li>
+
+                </ul>
+            </nav>
+
+               <button class="navbtn" databtn><!--active-->
+                <i  id="ber" class="fa-solid fa-xmark   ber"></i><br>
+       
+                  <i  id="ber" class="fa-solid fa-bars   bers"></i>
+               </button>
+
+        </div>
+    </main>
+</body>
+<script>
+    const navbar=document.querySelector("[ datanavbar]");
+const navbtn=document.querySelector("[ databtn]");
+const navbarlinks=document.querySelectorAll("[datanavlinks]");
+
+
+navbtn.addEventListener("click",function(){
+    navbar.classList.toggle("active");
+    this.classList.toggle("active");
+   
+   
+})//for whole block
+
+for(let i=0;i<navbarlinks.length;i++){
+    navbarlinks[i].addEventListener("click",function(){
+          navbar.classList.toggle("active");
+    navbtn.classList.toggle("active");
+   
+    })
+}
+</script>
+</html>

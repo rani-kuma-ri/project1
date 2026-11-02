@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Example</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 100px;
+            transition: background-color 0.5s;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .colorBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .messageBtn {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <h1>JavaScript Button Example</h1>
+
+    <button class="colorBtn" onclick="changeColor()">Change Color</button>
+    <button class="messageBtn" onclick="showMessage()">Show Message</button>
+
+    <p id="message"></p>
+   <p id="messagee"></p>
+
+    <script>
+        function changeColor() {
+            //document.getElementById("messagee").style.backgroundColor = "blue";
+           document.body.style.backgroundColor="blue"
+        }
+
+        function showMessage() {
+            document.getElementById("message").innerHTML = "Hello Rani! Welcome to JavaScript 🚀";
+        }
+    </script>
+
+</body>
+</html>

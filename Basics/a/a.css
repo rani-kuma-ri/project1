@@ -1,0 +1,15 @@
+body{
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+   margin: 0;
+   
+
+}
+.a{
+     background:linear-gradient(#866be7,#4416ea); 
+     width: 500px;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}

@@ -1,0 +1,21 @@
+button{
+     text-align: center;
+     align-items: center;
+     border-radius: 25px;
+}
+body{
+      background-color: blue;
+      height: 100vh;
+
+}
+.z{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     
+    
+    
+}
+
+
+

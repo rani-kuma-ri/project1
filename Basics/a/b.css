@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+   background: url("https://i.pinimg.com/736x/35/f2/a0/35f2a00c7baefb112ca5aebec69bf0d0.jpg");
+   background-size: cover;
+  
+}
+h1{
+    font-size: 60px;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+.b{
+   padding: 10px 20px;
+   width: 200px;
+   cursor: pointer;
+   background-color:rgb(226, 237, 112) ;
+   border-radius: 8px;
+   font-size: 20px;
+}
+.b:hover{
+    filter: brightness(0.8);
+}

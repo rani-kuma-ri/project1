@@ -1,0 +1,103 @@
+.product{
+  color:white;
+  background-color: grey;
+  padding:auto;
+  
+}
+.fabindia p{
+    text-align:left;
+    align-items:left;
+
+}
+.disha{
+    float: right;
+    
+}
+.dis{
+   text-align: right;
+   align-items:right;
+   color:white;
+}
+.fabin{
+    background-color: rgb(94, 86, 86);
+}
+.fabin nav,a{
+    text-align: center;
+    align-items: center;
+    color:white;
+
+}
+.b button{
+    float:left;
+}
+.demo{
+    background-color: rgb(221, 221, 250);
+}
+.pro{
+    text-align: center;
+    align-items: center;
+    float: center;
+}
+.card{
+    float:middle;
+    
+}
+.x{
+    float:middle;
+}
+.resume{
+    text-align: center;
+    align-items: center;
+    float:center;
+}
+.demos{
+    
+    align-items: center;
+    float:center;
+}
+
+.fabin p{
+    text-align: left;
+    align-items:left;
+    color: white;
+    
+}
+button{
+    text-align: right;
+    align-items: right;
+    color:rgb(50, 4, 4);
+    background-color: rgb(248, 238, 238);
+    padding:10px 10px;
+    float: right;
+
+}
+.fabinn{
+    text-align: left;
+    align-items:left;
+}
+.fabinn p2 img{
+    float: right;
+    width: 200px;
+    position: relative;
+    top: -200px;
+   
+}
+.enva{
+    text-align: center;
+    align-items: center;
+
+}
+.x{
+
+}
+.faenva{
+    text-align: center;
+    align-items: center;
+}
+.section{
+    color:white;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+
+}

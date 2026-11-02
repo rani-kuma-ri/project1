@@ -1,0 +1,66 @@
+.page{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto;
+    background:linear-gradient(135deg,#7a4fff,#e5ffe0);
+    padding:30px 10px;
+
+}
+
+.site-disha{
+    text-align:center;
+    padding:30px 10px;
+        background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+  
+
+}
+.site-disha h1,p{
+    color:#e0e0ff;
+    
+
+}
+.navmenu{
+    text-align: center;
+    padding:30px 10px;
+        background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+
+}
+
+nav a{
+    padding:15px 20px;
+    margin-left:20px;
+    font-size:20px;
+    text-decoration:none;
+    padding:20px 22px;
+}
+.info-section{
+    display:flex;
+    align-items:flex-start;
+    margin:20px;
+    padding:30px 10px;
+    
+    
+}
+.information h3,h4,h5,h11{
+    display:inline-block;
+    color:white;
+    font-size:22px;
+    padding:10px 12px;
+  background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+    
+
+
+
+}
+
+.information{
+    flex:2;
+    padding:15px;
+}
+.img-disha{
+    flex:1;
+    text align: center;
+        background:linear-gradient(135deg,#7a4fff,#e0e0ff);
+        text-align: center;
+        padding:30px 10px;
+}

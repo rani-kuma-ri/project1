@@ -1,0 +1,85 @@
+changes in github is knownn as commit  and if we write commit changes are final 
+commmit means take screenshort and add it to memory this is known as history
+//git can do commit and branching
+
+add something added
+//git is a version control system
+//git collect the record of file and commit
+//git is our system in our laptop 
+//github is a on a website
+
+//to download git we have to go to visual sudio code
+//vs is code editior where we can code in any language 
+//and also we have to download gitbash
+//we have to download git
+//vs code is made by microsoft
+for  configuration do=>
+
+// a.git config --global user.name "my name"
+//b.git config --global user.email"rani@gmail.com"
+c.git config --list
+
+//user.name=rani-kuma-ri
+user.email=ranipkumari2000@gmail.com
+vs is a terminal
+//and   terminal code is a code editior
+
+there are two type of configuration local and global
+local mean only for one folder
+//for global all common for all folder
+
+//git command clone and status
+//clone= clonning repository (to copy file) on our local machine
+//git clone
+//green color file means new file is created
+//to tracked  file we have send to staging
+to save file we have to commit
+remote means =files in github
+local means= file in computer
+//git clone file name(https)https://github.com/rani-kuma-ri/localrepo2.git
+//status=display staus of code
+//git status
+//to see changes we use git status
+//there are four type of status ,a.untracked=new files that git dosent yet known
+b.modified=change
+c.staged=file is ready to committed
+d.unmodified=unchanged
+
+
+add =add new changed files 
+git add file name
+commit =it is record change
+git commit-m "message(new chenge added)" ,here m is message
+git add --all
+git add index.html
+//for all file to add once write=git add .
+//git commit -m "new line added"
+//cd=change directory
+// clear to clear the terminsl
+//ls =list file
+ls -a =show hidden file
+
+Your branch is ahead of 'origin/main' by 1 commit. =this mean hum github se ek step aage hain vs code me
+> git push origin main= to send file from vs to github
+remote repo ko hum origin kahte hain
+//main means branch
+
+
+<!-- yahan tak jab hum github me file banakar vs me bhejte hain wo hai-->
+
+<!-- ab yahn se jab hum vs se github me bhejte hain vo hain-->
+git init
+cd .. to come out of directory
+mkdir  localfile =to make new folder
+cd localfile
+git init
+git add .
+git status
+git commit -m "add new line"
+
+then go to github then go to repo  then click on new and make new repo
+then write git remote add origin https://github.com/rani-kuma-ri/local1.git, in vs code editor  
+to check origin write=git remote -v
+git branch =to check branch 
+git branch -M main =to rename branch
+git push origin main 

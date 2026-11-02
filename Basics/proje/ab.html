@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <script>
+
+ const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+document.write(firstName);
+
+
+const person = {};
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+
+const person = new Object({
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+});
+
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  age      : 50,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

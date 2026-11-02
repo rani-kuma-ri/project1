@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Palace Hotel</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            line-height:1.6;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#444;
+            text-align:center;
+            padding:10px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:gold;
+        }
+
+        /* ===== Slider ===== */
+        .slider{
+            position:relative;
+            width:100%;
+            height:400px;
+            overflow:hidden;
+        }
+
+        .slides{
+            display:flex;
+            width:300%;
+            height:100%;
+            transition:0.5s;
+        }
+
+        .slide{
+            width:100%;
+            flex-shrink:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:40px;
+            color:white;
+        }
+
+        .slide1{
+            background:url("https://images.unsplash.com/photo-1542314831-068cd1dbfeeb") no-repeat center/cover;
+        }
+
+        .slide2{
+            background:url("https://images.unsplash.com/photo-1560448204-e02f11c3d0e2") no-repeat center/cover;
+        }
+
+        .slide3{
+            background:url("https://images.unsplash.com/photo-1551882547-ff40c63fe5fa") no-repeat center/cover;
+        }
+
+        /* Hide radio buttons */
+        input{
+            display:none;
+        }
+
+        /* Slide movement */
+        #s1:checked ~ .slides{ margin-left:0%; }
+        #s2:checked ~ .slides{ margin-left:-100%; }
+        #s3:checked ~ .slides{ margin-left:-200%; }
+
+        /* Arrows */
+        .arrow{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            font-size:40px;
+            color:white;
+            background:rgba(0,0,0,0.5);
+            padding:10px 15px;
+            cursor:pointer;
+        }
+
+        .left{ left:10px; }
+        .right{ right:10px; }
+
+        section{
+            padding:40px;
+            text-align:center;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            width:300px;
+            margin:15px;
+            padding:20px;
+            background:#f4f4f4;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        button{
+            padding:10px 20px;
+            background:gold;
+            border:none;
+            margin-top:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:orange;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Royal Palace Hotel</h1>
+    <p>Luxury & Comfort Stay</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ===== Slider Section ===== -->
+
+<div class="slider">
+
+    <input type="radio" name="slide" id="s1" checked>
+    <input type="radio" name="slide" id="s2" checked>
+    <input type="radio" name="slide" id="s3" checked>
+
+    <div class="slides">
+        <div class="slide slide1">Welcome to Royal Palace</div>
+        <div class="slide slide2">Luxury Rooms</div>
+        <div class="slide slide3">Enjoy Your Stay</div>
+    </div>
+
+    <label for="s1" class="arrow left">⬅</label>
+    <label for="s2" class="arrow right">➡</label>
+
+</div>
+
+<!-- ===== About Section ===== -->
+
+<section id="about">
+    <h2>About Our Hotel</h2>
+    <p>We provide premium rooms, fine dining, swimming pool, spa and 24/7 customer support.
+       Experience luxury and comfort in the heart of the city.</p>
+</section>
+ 
+
+<!-- ===== Rooms Section ===== -->
+
+<section id="rooms">
+    <h2>Our Rooms</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582719478181-2c9e74c6b3a2">
+            <h3>Deluxe Room</h3>
+            <p>AC, WiFi, King Size Bed</p>
+            <p><strong>₹3000 / Night</strong></p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427">
+            <h3>Suite Room</h3>
+            <p>Premium Suite with Living Area</p>
+            <p><strong>₹8000 / Night</strong></p>
+            <button>Book Now</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== Services ===== -->
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>🍽 Restaurant</h3>
+            <p>Multi-cuisine fine dining restaurant.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏊 Swimming Pool</h3>
+            <p>Large and clean pool area.</p>
+        </div>
+
+        <div class="card">
+            <h3>💆 Spa</h3>
+            <p>Professional wellness treatments.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== Contact ===== -->
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Main City Road, India</p>
+    <p>📞 +91 9876543210</p>
+    <p>📧 info@royalpalacehotel.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Royal Palace Hotel | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+

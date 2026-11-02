@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="d.css">
+</head>
+<body>
+    <input type="checkbox" id="a" onchange="enable()">
+    <label>i agree</label>
+    <button id="submit" disabled>submit</button>
+    <p id="a1"></p>
+    
+</body>
+<script>
+    function enable(){
+        const checkbox=document.getElementById("a");
+        const b=document.getElementById("submit");
+        const a1=document.getElementById("a1")
+        b.disabled=!checkbox.checked;
+        b.addEventListener("click",()=>{
+           a1.textContent="button clicked"  
+        })
+       
+
+    }
+</script>
+</html>

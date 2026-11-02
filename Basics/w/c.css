@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    margin:0;
+    padding:0;
+    background-color:white;
+}
+span{
+    background: url("https://i.pinimg.com/736x/0e/8f/10/0e8f10efe5481047ec9190fc2577ef98.jpg");
+    height: 100px;
+    width:  100px;
+    position: absolute;
+     pointer-events: none;
+    background-size:cover ;
+    
+    left:50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+    animation: animat 6s;
+}
+@keyframes animat {
+    0%{
+         transform: translate(-50%,-50%); 
+         opacity: 1;
+         filter: hue-rotate(0);
+        } 
+
+
+        100%{
+         transform: translate(-50%,-5000%); 
+         opacity: 0;
+          filter: hue-rotate(720deg);
+        } 
+
+}
